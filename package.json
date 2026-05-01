@@ -1,0 +1,25 @@
+{
+  "name": "summery4hworrrk5",
+  "version": "1.0.0",
+  "description": "",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "homepage": "https://github.com/ORIONLEV/summery4hworrrk5",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx parcel src/index.html",
+    "build": "parcel build src/index.html --public-url /summery4hworrrk5/",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  },
+  "dependencies": {
+    "@pnotify/mobile": "^5.2.0",
+    "chart.js": "^4.5.1",
+    "gh-pages": "^6.3.0"
+  }
+}
